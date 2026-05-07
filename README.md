@@ -3,6 +3,17 @@
 **28 tasks · 143h total · 6 weeks · Project I compliant**  
 Class 2527 · ETIC_Algarve · Academic Year 2025/26
 
+## Dev Container (partilhado)
+
+Este repositório já inclui configuração de Dev Container em [.devcontainer/devcontainer.json](.devcontainer/devcontainer.json).
+
+Para garantir o mesmo ambiente entre membros da equipa:
+- Abrir o repositório no VS Code
+- Executar **Dev Containers: Reopen in Container**
+- Esperar o build inicial concluir
+
+O container inclui Python, Node.js e Docker-in-Docker para desenvolvimento local com a mesma base para todos.
+
 ---
 
 ## Legend
