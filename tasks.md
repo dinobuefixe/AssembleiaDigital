@@ -56,12 +56,12 @@ Both devs define exact request/response shapes for all 7 endpoints. Document in 
 ### T-01 · Backend · Dev A · 4h
 **Django project setup & config**
 
-Initialise Django project with folder structure `collective-decisions/backend/api/`. Configure `settings.py` for dev/prod, install dependencies, write `requirements.txt`, setup SQLite.
+Initialise Django project with folder structure `collective-decisions/backend/`. Configure `settings.py` for dev/prod, install dependencies, write `requirements.txt`, setup SQLite.
 
 **Acceptance Criteria**
 - Runs locally with `manage.py runserver`
 - `requirements.txt` with pinned versions
-- Folder structure: `backend/api/`
+- Folder structure: `backend/`
 - CORS configured for frontend origin
 - Env vars via `.env` file
 
